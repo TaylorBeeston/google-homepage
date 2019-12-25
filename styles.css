@@ -80,6 +80,12 @@ footer a {
   width: 482px;
   margin: 35px auto;
   font: 16px arial, sans-serif;
+  box-shadow: none;
+}
+
+#searchbar > input:hover,
+#searchbar > input:focus {
+  box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
 }
 
 .searchbutton {
